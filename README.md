@@ -2,8 +2,8 @@
 This repo contains the various introduction to JavaScript class examples and take it further exercises.
 
 ## JavaScript In-Class Demos
-- [Lightbulb Introduction](lightbulb/index.html)
-- [Colour Change](color-change/index.html)
+- Lightbulb Example: [Source Code](lightbulb/index.html) [GitHub Pages](https://danstephenson.github.io/javascript-intro/lightbulb/index.html)
+- Text & Background Color Selection: [Source Code](color-change/index.html) [GitHub Pages](https://github.io/danstephenson/javascript-intro/color-change/index.html)
 
 
 ## Take It Further
