@@ -5,3 +5,8 @@ body{
 #bulb_off{
 	display:none;
 }
+
+.light{
+	background-color:white;
+	color:black;
+}
