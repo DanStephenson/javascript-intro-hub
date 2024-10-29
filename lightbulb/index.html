@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intro to JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+			background-color:black;
+			color:#333;
+		}
+		#bulb_off{
+			display:none;
+		}
+	</style>
+  </head>
+  <body>
+	  <h1>Introduction to JavaScript</h1>
+	  <button id="secret">Show a secret message</button>
+	  
+	  <img src="lightbulb_off.webp" alt="lightbulb" id="lightbulb">
+	  <button id="bulb_on">turn on the light</button>
+	  <button id="bulb_off">turn off the light</button>
+	  
+	  <script>
+		//Show a message when the button with the ID 'secret' is pressed
+		secret.addEventListener('click',function(){
+			console.log("Hello");
+			alert("Bird is the word");
+		})
+		
+		//When the button with the ID of 'bulb_on' is pressed, change the image's src
+		bulb_on.addEventListener('click',function(){
+			console.log("let there be light");
+			document.getElementById('lightbulb').src = "lightbulb_on.webp";
+			document.getElementById('bulb_on').style.display="none";
+			document.getElementById('bulb_off').style.display="initial";
+			
+			//Set the colour scheme to the lights being on
+			document.body.style.backgroundColor = "white";
+			document.body.style.color = "black";
+		})
+		bulb_off.addEventListener('click',function(){
+			console.log("let there be darkness");
+			document.getElementById('lightbulb').src = "lightbulb_off.webp";
+			document.getElementById('bulb_on').style.display="initial";
+			document.getElementById('bulb_off').style.display="none";
+			
+			//Set the colour to the lughts being off
+			document.body.style.backgroundColor = "black";
+			document.body.style.color = "#333";
+		})
+	  </script>
+  </body>
+</html>

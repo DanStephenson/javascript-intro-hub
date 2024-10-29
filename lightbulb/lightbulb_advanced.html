@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intro to JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		button{
+			background-color:#ccc;
+			padding:1rem;
+			border-radius:10px;
+		}
+		#bulb_off{
+			display:none;
+		}
+		
+		.on{
+			background-color:white;
+			color:black;
+			transition:background-color 1000ms linear;
+			transition:color 1000ms linear;
+		}
+		.off{
+			background-color:black;
+			color:#ccc;
+			transition:background-color 500ms linear;
+			transition:color 1000ms linear;
+		}
+	</style>
+  </head>
+  <body class="off">
+	  <h1>Introduction to JavaScript</h1>  
+	  <img src="lightbulb_off.png" alt="lightbulb" id="lightbulb">
+	  <button id="bulb_on">turn on the light</button>
+	  <button id="bulb_off">turn off the light</button>
+	  
+	  <script>
+		//When the button with the ID of 'bulb_on' is pressed, change the image's src
+		bulb_on.addEventListener('click',function(){
+			console.log("let there be light");
+			document.getElementById('lightbulb').src = "lightbulb_on.png";
+			document.getElementById('bulb_on').style.display="none";
+			document.getElementById('bulb_off').style.display="initial";
+			
+			document.body.classList.remove('off');	
+			document.body.classList.add('on');				
+		})
+		bulb_off.addEventListener('click',function(){
+			console.log("let there be light");
+			document.getElementById('lightbulb').src = "lightbulb_off.png";
+			document.getElementById('bulb_on').style.display="initial";
+			document.getElementById('bulb_off').style.display="none";
+			
+			document.body.classList.remove('on');	
+			document.body.classList.add('off');
+		})
+	  </script>
+  </body>
+</html>

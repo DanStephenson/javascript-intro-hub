@@ -1,0 +1,7 @@
+body{
+	background-color:black;
+	color:#333;
+}
+#bulb_off{
+	display:none;
+}
