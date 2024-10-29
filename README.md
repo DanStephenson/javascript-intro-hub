@@ -8,3 +8,4 @@ This repo contains the various introduction to JavaScript class examples and tak
 
 ## Take It Further
 These exercises are designed to give students practice using JavaScript outside of class. The exercises are not graded.
+- [Four Seasons of Web Development] (https://danstephenson.github.io/javascript-intro/take-it-further/four-seasons/)
