@@ -1,5 +1,5 @@
-# Introduction to JavaScript
-This repo contains the various introduction to JavaScript class examples and take it further exercises.
+# Introduction to JavaScript Hub
+This repo contains the various introduction to JavaScript class examples and take it further exercises. It acts as a main hub for learning to work with JavaScript.
 
 ## JavaScript In-Class Demos
 - Lightbulb Example: [Source Code](lightbulb/index.html) [GitHub Pages](https://danstephenson.github.io/javascript-intro/lightbulb/index.html)
