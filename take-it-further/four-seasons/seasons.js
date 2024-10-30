@@ -6,7 +6,7 @@ autumn.addEventListener('click',function(){
 	document.body.classList.remove("winter");
 	document.body.classList.add('autumn');
 	document.getElementById('banner').src="autumn.webp";
-	//document.getElementById('lightbulb').src = "lightbulb_on.webp";
+	document.getElementById('banner').alt="yellow autumn leaves falling on a wooden deck";
 })
 
 spring.addEventListener('click',function(){
@@ -17,6 +17,7 @@ spring.addEventListener('click',function(){
 	document.body.classList.remove("winter");
 	document.body.classList.add('spring');
 	document.getElementById('banner').src="spring.webp";
+	document.getElementById('banner').alt="pink cherry blossom flowers on a branch";
 })
 
 summer.addEventListener('click',function(){
@@ -27,6 +28,7 @@ summer.addEventListener('click',function(){
 	document.body.classList.remove("winter");
 	document.body.classList.add('summer');
 	document.getElementById('banner').src="summer.webp";
+	document.getElementById('banner').alt="sandals a beach towel and sunglasses laying on the sand";
 })
 winter.addEventListener('click',function(){
 	pagetitle.innerHTML = "Winter";
@@ -36,5 +38,5 @@ winter.addEventListener('click',function(){
 	document.body.classList.remove("autumn");
 	document.body.classList.add('winter');
 	document.getElementById('banner').src="winter.webp";
-	
+	document.getElementById('banner').alt="A wintery path with snow on the trees and ground";
 })
