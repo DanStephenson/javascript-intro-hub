@@ -2,7 +2,7 @@
 This repo contains the various introduction to JavaScript class examples and take it further exercises. It acts as a main hub for learning to work with JavaScript.
 
 ## JavaScript In-Class Demos
-- Lightbulb Example: [Source Code](lightbulb/index.html) [GitHub Pages](https://danstephenson.github.io/javascript-intro-hub/lightbulb/index.html)
+- Lightbulb Example: [Source Code](lightbulb/index.html) | [GitHub Pages](https://danstephenson.github.io/javascript-intro-hub/lightbulb/index.html)
 <!-- - Change Events & Conditional Statements (Weather): [Source Code](color-change/index.html) [GitHub Pages](https://danstephenson.github.io/javascript-intro-hub/color-change/)-->
 
 
