@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>JavaScript Weather Events</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>JavaScript Weather Events</h1>
+		
+		<label for="weather">Select the weather type today: </label>
+		<select id="weather">
+		  <option value="" selected="selected">--Make a choice--</option>
+		  <option value="sunny">Sunny</option>
+		  <option value="rainy">Rainy</option>
+		  <option value="snowing">Snowing</option>
+		  <option value="overcast">Overcast</option>
+		</select>
+		
+		 <label for="bg">background colour</label>
+         <input type="color" id="bg">
+
+        <label for="text">text colour</label>
+        <input type="color" id="text">
+
+		<p id="output"></p>
+
+		<script src="weather.js"></script>
+	</body>
+</html>
