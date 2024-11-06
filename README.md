@@ -3,7 +3,7 @@ This repo contains the various introduction to JavaScript class examples and tak
 
 ## JavaScript In-Class Demos
 - Lightbulb Example: [Source Code](lightbulb/index.html) | [GitHub Pages](https://danstephenson.github.io/javascript-intro-hub/lightbulb/index.html)
-- Change Events & Conditional Statements (Weather): [Source Code](weather/index.html) [GitHub Pages](https://danstephenson.github.io/javascript-intro-hub/color-change/)-->
+- Change Events & Conditional Statements (Weather): [Source Code](weather/index.html) [GitHub Pages](https://danstephenson.github.io/javascript-intro-hub/weather/)
 
 
 ## Take It Further
