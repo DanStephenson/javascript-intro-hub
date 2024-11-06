@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Emoji Changer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body{
+				font-family:Verdana;
+			}
+			main{
+				float:left;
+				width:60%;
+				text-align:center;
+			}
+			#emoji{
+				display:block;
+				font-size:1200%;
+			}
+			aside{
+				float:right;
+				width:30%;
+				background-color:yellow;
+				border:2px solid black;
+				padding:0.4rem;
+			}
+			aside ul{
+				padding:0;
+				margin-left:1rem;
+			}
+			aside li{
+				list-style-type:none;
+				margin-bottom:0.3rem;
+			}
+			kbd {
+				background-color: #eee;
+				border-radius: 3px;
+				border: 1px solid #b4b4b4;
+				box-shadow:
+				0 1px 1px rgba(0, 0, 0, 0.2),
+				0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+				color: #333;
+				display: inline-block;
+				font-weight: 700;
+				padding: 2px 4px;
+				white-space: nowrap;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Emoji Changer</h1>
+		</header>
+		
+		<main id="container">
+			<p>Allow the user to pick an emoji to display based on a specifc number key being pressed on the keyboard. You can use the <a href="https://emojipedia.org/" target="_blank">emojipedia</a> to find emojis and copy and paste them into your code if you wish.</p>
+			<span id="emoji">😃</span>
+			<p id="mood">Happy</p>
+		</main>
+		
+		<aside>
+			<h2>Key Shortcuts</h2>
+			<ul>
+				<li><kbd>1</kbd> Winking</li>
+				<li><kbd>2</kbd> Blow A Kiss</li>
+				<li><kbd>3</kbd> Sad</li>
+				<li><kbd>4</kbd> Thinking</li>
+				<li><kbd>5</kbd> Be Quiet</li>
+				<li><kbd>SPACE BAR</kbd> Reset</li>
+			</ul>
+		</aside>
+		
+		
+		<script>
+			document.addEventListener('keydown',function(event){
+				let key = event.key;
+				console.log(key);
+				
+				if(key==1){
+					//1
+					emoji.innerHTML = '😉';
+					mood.innerHTML = "Winking";
+				}else if(key==2){
+					//2
+					emoji.innerHTML = '😘';
+					mood.innerHTML = "Blow A Kiss";
+				}else if(key==3){
+					//3
+					emoji.innerHTML = '☹️';
+					mood.innerHTML = "Sad";
+				}else if(key==4){
+					//4
+					emoji.innerHTML = '🤔';
+					mood.innerHTML = "Thinking";
+				}else if(key==5){
+					//5
+					emoji.innerHTML = '🤐';
+					mood.innerHTML = "Be Quiet";
+				}else if(key==" " || key=="Enter"){
+					//spacebar
+					emoji.innerHTML = '😃';
+					mood.innerHTML = "Happy";
+				}
+			})
+		</script>
+	</body>
+</html> 
