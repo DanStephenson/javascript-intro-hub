@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Grade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+		<h1>JavaScript Grade Calculator</h1>
+		<p>Create a variable that allows someone to input their grade as a percentage, and then the website will show them their grade as a letter, based on <a href="https://saitregistrar.freshdesk.com/support/solutions/articles/47001154752-grading-system" target="_blank"><abbr title="Southern Alberta Institute of Technology">SAIT</abbr>'s Grading System</a>. You will need to use variable(s) and conditional statements to achieve this.</p>
+		<p>Once you have the page working, use Google Fonts to apply the font Titillium Web which is SAIT's corporate font, and create a responsive design that incorporates 2-3 of SAIT's corporate colours:</p>
+		<ul>
+			<li>Primary Red: <code>#DA291C</code></li>
+			<li>Primary Blue: <code>#005EB8</code></li>
+			<li>Secondary Purple: <code>#6D2077</code></li>
+			<li>Secondary Red: <code>#00A3E0</code></li>
+			<li>Secondary Blue: <code>#A6192E</code></li>
+		</ul>
+		
+		<h2>Take It Even Further</h2>
+		<p>If you want to go further, see if you can get a form working so a user can input their grade, and then show the calculation.</p>
+		
+		<label for="inputgrade">Input your grade</label>
+		<input type="text" id="inputgrade">
+		<button id="getgrade">Calculate</button>
+	
+		<p id="result">Your grade on the assignment is <span id="showgrade"></span> which is a <span id="showletter"></span> letter grade.</p>
+		
+		<script src="grade.js"></script>
+  </body>
+</html>
