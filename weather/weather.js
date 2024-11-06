@@ -22,7 +22,7 @@ let choice = "";
 		});
 		
 		
-		bg.addEventListener('event',function(){
+		bg.addEventListener('change',function(){
 				//input event allows this to change in realtime
                 console.log("Background "+bg.value);
                 document.body.style.backgroundColor = bg.value;
