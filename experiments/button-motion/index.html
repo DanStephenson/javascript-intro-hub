@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Template</title>
+    <style>
+		#surprise{
+			position:absolute;
+			padding:2rem;
+		}
+	</style>
+  </head>
+  <body>
+	<h1>Can you catch it?</h1>
+	<button id="surprise">CLICK HERE FOR A SURPRISE!</button>
+	  <script>
+		let x = window.innerWidth;
+		let y = window.innerHeight;
+		 function randomPosition(){
+			buttonX = Math.floor(Math.random()*x);
+			buttonY = Math.floor(Math.random()*y);
+			document.getElementById("surprise").style.left = buttonX+"px";
+			document.getElementById("surprise").style.top = buttonY+"px";
+		}
+		
+		randomPosition();
+				
+		surprise.addEventListener('mouseover',function(){
+			console.log('touched');
+			randomPosition();
+
+		});
+		surprise.addEventListener('click',function(){
+			alert("Surprise!");
+		});
+	  </script>
+  </body>
+</html>
