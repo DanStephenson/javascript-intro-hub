@@ -9,10 +9,10 @@ This repo contains the various introduction to JavaScript class examples and tak
 ## Take It Further
 These exercises are designed to give students practice using JavaScript outside of class. The exercises are not graded.
 
-- Week 9: [Four Seasons of Web Development] (https://danstephenson.github.io/javascript-intro-hub/take-it-further/four-seasons/)
-- Week 10: [Emoji Picker and Keyboard Events] (https://danstephenson.github.io/javascript-intro-hub/take-it-further/emojis/)
+- [Four Seasons of Web Development](https://danstephenson.github.io/javascript-intro-hub/take-it-further/four-seasons/)
+- [Emoji Picker and Keyboard Events](https://danstephenson.github.io/javascript-intro-hub/take-it-further/emojis/)
 
 ## Experiments
 These are JavaScript demos or projects that I am experimenting with. Most will be more fun than useful.
 
-- The unclickable button [Github Pages] (https://danstephenson.github.io/javascript-intro-hub/experiments/button-motion/)
+- [The unclickable button](https://danstephenson.github.io/javascript-intro-hub/experiments/button-motion/)
