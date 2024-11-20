@@ -13,7 +13,7 @@ These exercises are designed to give students practice using JavaScript outside 
 - [Four Seasons of Web Development](https://danstephenson.github.io/javascript-intro-hub/take-it-further/four-seasons/)
 - [Emoji Picker and Keyboard Events](https://danstephenson.github.io/javascript-intro-hub/take-it-further/emojis/)
 - [Grade Calculator](https://danstephenson.github.io/javascript-intro-hub/take-it-further/grade-calc/)
-- [What's For Dinner]()
+- [What's For Dinner](https://danstephenson.github.io/javascript-intro-hub/take-it-further/dinner)
 
 ## Experiments
 These are JavaScript demos or projects that I am experimenting with. Most will be more fun than useful.
