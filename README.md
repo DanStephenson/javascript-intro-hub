@@ -10,7 +10,7 @@ This repo contains the various introduction to JavaScript class examples and tak
 
 ## Take It Further
 These exercises are designed to give students practice using JavaScript outside of class. The exercises are not graded.
-[Four Seasons of Web Development](https://danstephenson.github.io/javascript-intro-hub/take-it-further/four-seasons/)
+- [Four Seasons of Web Development](https://danstephenson.github.io/javascript-intro-hub/take-it-further/four-seasons/)
 - [Emoji Picker and Keyboard Events](https://danstephenson.github.io/javascript-intro-hub/take-it-further/emojis/)
 - [Grade Calculator](https://danstephenson.github.io/javascript-intro-hub/take-it-further/grade-calc/)
 - [What's For Dinner](https://danstephenson.github.io/javascript-intro-hub/take-it-further/dinner)
